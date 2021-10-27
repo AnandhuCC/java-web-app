@@ -16,6 +16,7 @@ public class DemoApplication {
 	@RequestMapping("/")
   public String home() {
  	sysout("hey")
+	int s = 5
     return "Hello Docker World!";
   }
 }
