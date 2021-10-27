@@ -16,6 +16,10 @@ public class DemoApplication {
 
 	@RequestMapping("/")
   public String home() {
+	  for (;;) {  // Noncompliant; end condition omitted
+  // ...
+}
     return "Hello Docker World!";
   }
+	
 }
